@@ -1,0 +1,62 @@
+/* reset.css */
+
+/* Eliminamos márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para elementos de texto */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Formularios */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Aseguramos que los elementos se comporten como se espera */
+button {
+    cursor: pointer;
+}
+
+/* Especificamos algunos elementos de bloque */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Estilo básico para el contenedor */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
